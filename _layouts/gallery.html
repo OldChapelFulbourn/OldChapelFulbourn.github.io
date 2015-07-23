@@ -1,0 +1,26 @@
+---
+layout: page
+---
+<nav id="image-nav">
+    {% if page.previous %}
+    <span class="previous-image"><a href="{{page.previous}}">← Previous Image</a></span>
+    {% endif %}
+    {% if page.next %}
+    <span class="next-image"><a href="{{page.next}}">Next Image →</a></span>
+    {% endif %}
+</nav><!-- end image-nav -->
+
+<div class="single-entry-content">
+
+    <div class="entry-attachment">
+        <div class="attachment">
+            <img src="{{page.image}}" class="attachment-800x9999" alt="{{page.title}}">
+        </div><!-- end attachment -->
+
+        <div class="entry-caption">
+            <p>{{page.title}}</p>
+        </div>
+    </div><!-- end entry-attachment -->
+
+
+</div><!-- end entry-content -->{{content}}
