@@ -1563,68 +1563,101 @@ a#cancel-comment-reply-link {
 (-o-min-device-pixel-ratio: 3/2),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-device-pixel-ratio: 1.5) {
-.widget_sociallinks a.twitter {
-	background:url(images/x2/socialicons.png) 0 0 no-repeat;
-	background-size: 16px 271px;
+    .widget_sociallinks a.twitter {
+        background: url(images/x2/socialicons.png) 0 0 no-repeat;
+        background-size: 16px 271px;
+    }
+
+    .widget_sociallinks a.facebook {
+        background: url(images/x2/socialicons.png) 0 -17px no-repeat;
+        background-size: 16px 271px;
+    }
+
+    .widget_sociallinks a.googleplus {
+        background: url(images/x2/socialicons.png) 0 -34px no-repeat;
+        background-size: 16px 271px;
+    }
+
+    .widget_sociallinks a.pinterest {
+        background: url(images/x2/socialicons.png) 0 -51px no-repeat;
+        background-size: 16px 271px;
+    }
+
+    .widget_sociallinks a.vimeo {
+        background: url(images/x2/socialicons.png) 0 -68px no-repeat;
+        background-size: 16px 271px;
+    }
+
+    .widget_sociallinks a.youtube {
+        background: url(images/x2/socialicons.png) 0 -85px no-repeat;
+        background-size: 16px 271px;
+    }
+
+    .widget_sociallinks a.instagram {
+        background: url(images/x2/socialicons.png) 0 -102px no-repeat;
+        background-size: 16px 271px;
+    }
+
+    .widget_sociallinks a.flickr {
+        background: url(images/x2/socialicons.png) 0 -119px no-repeat;
+        background-size: 16px 271px;
+    }
+
+    .widget_sociallinks a.dribbble {
+        background: url(images/x2/socialicons.png) 0 -136px no-repeat;
+        background-size: 16px 271px;
+    }
+
+    .widget_sociallinks a.github {
+        background: url(images/x2/socialicons.png) 0 -153px no-repeat;
+        background-size: 16px 271px;
+    }
+
+    .widget_sociallinks a.foursquare {
+        background: url(images/x2/socialicons.png) 0 -170px no-repeat;
+        background-size: 16px 271px;
+    }
+
+    .widget_sociallinks a.wordpress {
+        background: url(images/x2/socialicons.png) 0 -187px no-repeat;
+        background-size: 16px 271px;
+    }
+
+    .widget_sociallinks a.xing {
+        background: url(images/x2/socialicons.png) 0 -204px no-repeat;
+        background-size: 16px 271px;
+    }
+
+    .widget_sociallinks a.linkedin {
+        background: url(images/x2/socialicons.png) 0 -221px no-repeat;
+        background-size: 16px 271px;
+    }
+
+    .widget_sociallinks a.delicious {
+        background: url(images/x2/socialicons.png) 0 -238px no-repeat;
+        background-size: 16px 271px;
+    }
+
+    .widget_sociallinks a.rss {
+        background: url(images/x2/socialicons.png) 0 -255px no-repeat;
+        background-size: 16px 271px;
+    }
 }
-.widget_sociallinks a.facebook {
-	background:url(images/x2/socialicons.png) 0 -17px no-repeat;
-	background-size: 16px 271px;
+
+/* Styles for the search */
+ul#results-container {
 }
-.widget_sociallinks a.googleplus {
-	background:url(images/x2/socialicons.png) 0 -34px no-repeat;
-	background-size: 16px 271px;
+
+ul#results-container li {
+    padding: 4px;
+    border: 1px solid silver;
 }
-.widget_sociallinks a.pinterest {
-	background:url(images/x2/socialicons.png) 0 -51px no-repeat;
-	background-size: 16px 271px;
+
+ul#results-container li:hover {
+    background-color: #dbb4ee;
 }
-.widget_sociallinks a.vimeo {
-	background:url(images/x2/socialicons.png) 0 -68px no-repeat;
-	background-size: 16px 271px;
+
+ul#results-container a:hover {
+    text-decoration: none;
 }
-.widget_sociallinks a.youtube {
-	background:url(images/x2/socialicons.png) 0 -85px no-repeat;
-	background-size: 16px 271px;
-}
-.widget_sociallinks a.instagram {
-	background:url(images/x2/socialicons.png) 0 -102px no-repeat;
-	background-size: 16px 271px;
-}
-.widget_sociallinks a.flickr {
-	background:url(images/x2/socialicons.png) 0 -119px no-repeat;
-	background-size: 16px 271px;
-}
-.widget_sociallinks a.dribbble {
-	background:url(images/x2/socialicons.png) 0 -136px no-repeat;
-	background-size: 16px 271px;
-}
-.widget_sociallinks a.github {
-	background:url(images/x2/socialicons.png) 0 -153px no-repeat;
-	background-size: 16px 271px;
-}
-.widget_sociallinks a.foursquare {
-	background:url(images/x2/socialicons.png) 0 -170px no-repeat;
-	background-size: 16px 271px;
-}
-.widget_sociallinks a.wordpress {
-	background:url(images/x2/socialicons.png) 0 -187px no-repeat;
-	background-size: 16px 271px;
-}
-.widget_sociallinks a.xing {
-	background:url(images/x2/socialicons.png) 0 -204px no-repeat;
-	background-size: 16px 271px;
-}
-.widget_sociallinks a.linkedin {
-	background:url(images/x2/socialicons.png) 0 -221px no-repeat;
-	background-size: 16px 271px;
-}
-.widget_sociallinks a.delicious {
-	background:url(images/x2/socialicons.png) 0 -238px no-repeat;
-	background-size: 16px 271px;
-}
-.widget_sociallinks a.rss {
-	background:url(images/x2/socialicons.png) 0 -255px no-repeat;
-	background-size: 16px 271px;
-}
-}
+
