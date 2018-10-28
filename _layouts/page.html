@@ -109,8 +109,14 @@ theme :
     </div><!-- end wrap -->
 
     <footer id="colophon" class="clearfix">
-        <a href="#page" class="top">Top</a>
+        <span class="footer-link"><a href="#page" class="top">Top</a></span>
+        <span class="footer-link"><a href="/privacy" class="top">Privacy and Cookies</a></span>
     </footer><!-- end colophon -->
+
+    <div id="cookieConsent">
+        <div id="closeCookieConsent">x</div>
+        This website uses cookies. <a href="/privacy" target="_blank">More info</a>. <a class="cookieConsentOK">That's OK</a>
+    </div>
 
 </div><!-- end page -->
 <script>
@@ -135,6 +141,15 @@ theme :
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
       json: '/search.json'
+    });
+
+    jQuery(document).ready(function(){
+        setTimeout(function () {
+            jQuery("#cookieConsent").fadeIn(200);
+         }, 4000);
+        jQuery("#closeCookieConsent, .cookieConsentOK").click(function() {
+            jQuery("#cookieConsent").fadeOut(200);
+        });
     });
 </script>
 {% include google-analytics.html %}
